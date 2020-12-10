@@ -156,7 +156,7 @@ Once the Tokenazation and text cleaning are done. we print top five key words mo
 Output get stored in all the compiled BIO files in below format.
 
 ```bash
-Key Words based on Topic Modelling done through SPACY:
+Key Words based on Topic Modelling through SPacy:
 research	compiler	software	students	projects
 ```
 
