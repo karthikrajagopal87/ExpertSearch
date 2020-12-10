@@ -82,3 +82,11 @@ urls = [
 
 get_scores(urls)
 ```
+
+
+
+## Topic Modelling
+
+Spacy is written in cython language, (C extension of Python designed to give C like performance to the python program). Hence is a quite fast library. spaCy provides a concise API to access its methods and properties governed by trained machine (and deep) learning models.We have used spaCy library to do topic modeling on bio pages and include it in the compiled BIO's.
+
+
