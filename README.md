@@ -151,5 +151,13 @@ Once the Tokenazation and text cleaning are done. we print top five key words mo
     counts=Counter(cleaned_list).most_common(5)   
 ```
 
+## Ouput
+
+Output get stored in all the compiled BIO files in below format.
+
+```bash
+Key Words based on Topic Modelling done through SPACY:
+research	compiler	software	students	projects
+```
 
 
