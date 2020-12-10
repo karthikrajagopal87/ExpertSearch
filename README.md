@@ -153,7 +153,7 @@ Once the Tokenazation and text cleaning are done. we print top five key words mo
 
 ## Ouput
 
-Output get stored in all the compiled BIO files in below format.
+Output gets stored in all the compiled BIO files in below format once the NLP is done through SPacy
 
 ```bash
 Key Words based on Topic Modelling through SPacy:
