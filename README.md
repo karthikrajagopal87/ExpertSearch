@@ -98,4 +98,18 @@ sudo pip install spacy
 
 #To download all the data and models, run the following command, after the installation:
 python -m spacy.en.download all
+
+#To load nlp for english. Use the below commands
+nlp = spacy.load("en_core_web_sm")
 ```
+
+## Comparison with other libraries
+Spacy is very powerful and industrial strength package for almost all natural language processing tasks.
+comparison of Spacy with other famous tools to implement nlp in python – CoreNLP and NLTK.
+
+![Feature Availability](Comparison.PNG)
+
+![Speed: Key Functionalities – Tokenizer, Tagging, Parsing](Speed.PNG)
+
+![Accuracy: Entity Extraction](Accuracy.PNG)
+
