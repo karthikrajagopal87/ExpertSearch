@@ -89,4 +89,12 @@ get_scores(urls)
 
 Spacy is written in cython language, (C extension of Python designed to give C like performance to the python program). Hence is a quite fast library. spaCy provides a concise API to access its methods and properties governed by trained machine (and deep) learning models.We have used spaCy library to do topic modeling on bio pages and include it in the compiled BIO's.
 
+## Setup
 
+Spacy, its data, and its models can be easily installed using python package index and setup tools. Use the following command to install spacy in your machine:
+
+#Use the following command to install spacy in your machine
+sudo pip install spacy
+
+#To download all the data and models, run the following command, after the installation:
+python -m spacy.en.download all
