@@ -107,9 +107,9 @@ nlp = spacy.load("en_core_web_sm")
 Spacy is very powerful and industrial strength package for almost all natural language processing tasks.
 comparison of Spacy with other famous tools to implement nlp in python – CoreNLP and NLTK.
 
-![Feature Availability](Comparison.png)
+![Feature Availability](Comparison.PNG)
 
-![Speed: Key Functionalities – Tokenizer, Tagging, Parsing](Speed.png)
+![Speed: Key Functionalities – Tokenizer, Tagging, Parsing](Speed.PNG)
 
-![Accuracy: Entity Extraction](Accuracy.png)
+![Accuracy: Entity Extraction](Accuracy.PNG)
 
