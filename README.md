@@ -92,9 +92,10 @@ Spacy is written in cython language, (C extension of Python designed to give C l
 ## Setup
 
 Spacy, its data, and its models can be easily installed using python package index and setup tools. Use the following command to install spacy in your machine:
-
+```bash
 #Use the following command to install spacy in your machine
 sudo pip install spacy
 
 #To download all the data and models, run the following command, after the installation:
 python -m spacy.en.download all
+```
