@@ -56,7 +56,7 @@ def cleanup(token, lower = True):
     return token.strip()
 ```
 
-Once the Tokenazation and text cleaning are done. we print top five key words modelled out of SPacy in the compiled BIO pages
+Once the Tokenazation and text cleaning are done. we print top five key words modelled out of SPacy from the compiled BIO pages
 
 ```bash
     from collections import Counter	
@@ -64,13 +64,6 @@ Once the Tokenazation and text cleaning are done. we print top five key words mo
     counts=Counter(cleaned_list).most_common(5)   
 ```
 
-## Ouput
 
-Output gets stored in all the compiled BIO files in below format once the NLP is done through SPacy
-
-```bash
-Key Words based on Topic Modelling through SPacy:
-research	compiler	software	students	projects
-```
 
 
