@@ -28,7 +28,7 @@ comparison of Spacy with other famous tools to implement nlp in python – CoreN
 ![Accuracy: Entity Extraction](Accuracy.PNG)
 
 
-## Part of Speech Tagging
+## Part of Speech Tagging done in the code
 
 Part-of-speech tags are the properties of the word that are defined by the usage of the word in the grammatically correct sentence. We have used part of speech tagging SPacy property in our code . We also added few text cleaning function to remove unwanted information.
 
@@ -78,3 +78,20 @@ db = TinyDB('/path/to/db.json')
 db.insert({'int': 1, 'char': 'a'})
 db.insert({'int': 1, 'char': 'b'})
 ```
+
+## Usage of Tiny DB in the code
+
+Once the topic modelling is complete, we consolidate the results and save the top 5 key words in for each file in TinyDB. Whole code is setup in cron and it runs once a day and final modelled data is stored in Json format in TinyDB. This data can be queried like a typical database from python based on the file name whenever needed.
+
+
+## Format in which data is stored in TinyDB
+
+Below is the format in which data is stored in TinyDB.
+
+![Data Store in TinyDB](TinyDB_Screenshot.PNG)
+
+Below is the sample Query to retrieve the data from TinyDB based on file name.
+
+![Reteive_data_sample in_TinyDB](Sample_Query_tinyDB.PNG)
+
+
