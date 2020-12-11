@@ -64,6 +64,17 @@ Once the Tokenazation and text cleaning are done. we print top five key words mo
     counts=Counter(cleaned_list).most_common(5)   
 ```
 
+The data is saved in tinyDB to reteieve for the future use.
 
+## TinyDB
 
+TinyDB is a lightweight document oriented database optimized. It’s written in pure Python and has no external dependencies. Their target target are small apps that would be blown away by a SQL-DB or an external database server.TinyDB has been tested with Python 3.5 - 3.8 and PyPy.
 
+Some sample usage of TinyDB
+
+```bash
+from tinydb import TinyDB, Query
+db = TinyDB('/path/to/db.json')
+db.insert({'int': 1, 'char': 'a'})
+db.insert({'int': 1, 'char': 'b'})
+```
