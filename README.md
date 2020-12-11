@@ -94,4 +94,14 @@ Below is the sample Query to retrieve the data from TinyDB based on file name.
 
 ![Reteive_data_sample in_TinyDB](Sample_Query_tinyDB.PNG)
 
+The final Topic_Model_Results.json has been added in the GIT repository for reference.
+
+## Task Scheduling:
+
+I have scheduled the Python Script to run on a daily basis at 10 PM using Task Scheduler in windows and this will keep the TinyDB up and running on a daily basis.
+
+
+![Task Scheduler to run on daily basis](Task_Scheduler.PNG)
+
+![Details of Scheduled Scripts](Scheduled_Script.PNG)
 
